@@ -1,0 +1,45 @@
+@keyframes type {
+    from {
+        font-size: 0em;
+    }
+    to {
+        font-size: 1em;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+        display: inline-block;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#hero {
+    z-index: 5;
+    position: relative;
+    overflow: hidden;
+    background-color: #edeff0;
+}
+
+#hero-text-wrapper {
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.hero-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 3.2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
