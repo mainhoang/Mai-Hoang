@@ -195,3 +195,9 @@
 .fourth-line > *:nth-of-type(11) {
     animation-delay: 7s;
 }
+
+@media (min-width: 992px) {
+    .hero-text {
+        font-size: 3.7em;
+    }
+}
