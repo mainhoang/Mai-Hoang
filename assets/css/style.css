@@ -5,3 +5,69 @@
     font-size: 16px;
     color: #333;
 }
+
+
+/*===================== NAV =====================*/
+#mai-navbar {
+    border-radius: 0px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    margin: 0px;
+    background-color: white;
+    height: 100px;
+    max-height: none;
+}
+
+#mai-navbar-left a {
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 21px 15px;
+}
+
+#mai-navbar-left button {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    border: none;
+}
+
+#mai-navbar-wrapper {
+    padding-bottom: 0px;
+}
+
+#mai-navbar-left button:focus,
+#mai-navbar-left button:hover {
+    background-color: white;
+}
+
+#mai-navbar-left button {
+    border-radius: 0;
+}
+
+#mai-navbar-left span {
+    color: #888;
+}
+
+#mai-navbar-right {
+    max-height: none;
+
+}
+
+#mai-navbar-right ul {
+    height: 100%;
+    background-color: white;
+    margin: 0 -15px;
+    max-height: none;
+    text-align: center;
+}
+
+#mai-navbar-right a {
+    color: #333;
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 100px;
+}
