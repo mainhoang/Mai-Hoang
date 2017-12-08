@@ -12,6 +12,26 @@
         background-color: transparent;
     }
 
+
+    #jolie img {
+        width: 50%;
+    }
+    #orbs img {
+        width: 35%;
+    }
+    #smart img {
+        width: 35%;
+    }
+    #penta img {
+        width: 40%;
+    }
+    #squillo img {
+        width: 22%;
+    }
+    .work-wrapper{
+        padding-top: 5%;
+    }
+
 }
 
 
