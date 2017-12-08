@@ -26,6 +26,13 @@ Add padding-top & negative margin-top same as height of nav*/
     position: relative;
 }
 
+.about-wrapper,
+.work-wrapper{
+    /*padding-top: 13%;*/
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+
 #about h1,
 #work h1,
 #contact h1 {
@@ -34,7 +41,7 @@ Add padding-top & negative margin-top same as height of nav*/
     margin-bottom: 0px;
 }
 
-.about-wrapper,
+.about-header,
 .work-header,
 .contact-header {
     padding: 20px;
@@ -114,15 +121,15 @@ Add padding-top & negative margin-top same as height of nav*/
 
 #me {
     color: #333;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /*padding-top: 60px;*/
+    /*padding-bottom: 60px;*/
 }
 
 .me-img {
     width: 200px;
     height: 200px;
     margin: auto;
-    background-image: url('../images/me.jpg');
+    background-image: url('../imgs/me.jpg');
     background-size: 140%;
     background-repeat: no-repeat;
     background-position: 35% 25%;
@@ -148,3 +155,13 @@ Add padding-top & negative margin-top same as height of nav*/
         20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%
     );
     clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+}
+
+.me-headline {
+    padding-top: 20px;
+}
+
+.me-text {
+    text-align: center;
+    padding: 20px;
+}
