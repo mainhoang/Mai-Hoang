@@ -19,8 +19,15 @@
 
 /*======================= * =======================*/
     .about-wrapper,
-    .work-wrapper {
+    .work-wrapper,
+    .contact-wrapper {
         padding-top: 5%;
+    }
+
+    .about-wrapper,
+    .tool-wrapper,
+    .contact-wrapper {
+        padding-bottom: 10%;
     }
 
 /*====================== NAV ======================*/
@@ -50,6 +57,9 @@
     #dance img {
         width: 35%;
     }
+    .tags .tech:nth-last-child(-n+6){
+        border-bottom: none;
+    }
 
 /*==================== CONTACT ====================*/
 
@@ -74,6 +84,12 @@
     }
 
 /*===================== WORK ======================*/
+    .tech {
+        height: 160px;
+    }
+    .tech p {
+        line-height: 160px;
+    }
 
 /*==================== CONTACT ====================*/
 
@@ -89,7 +105,6 @@
     .contact-header {
         padding: 0px;
     }
-
 
 /*====================== NAV ======================*/
 
@@ -113,6 +128,12 @@
     }
     #dance img {
         width: 30%;
+    }
+    .tech {
+        height: 200px;
+    }
+    .tech p {
+        line-height: 200px;
     }
 
 /*==================== CONTACT ====================*/
