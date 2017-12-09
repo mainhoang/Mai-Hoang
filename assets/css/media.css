@@ -1,16 +1,67 @@
 /*  for screens 420px - 767px  */
 @media (min-width: 420px) {
 
+/*======================= * =======================*/
+
+/*====================== NAV ======================*/
+
+/*===================== ABOUT =====================*/
+
+/*===================== WORK ======================*/
+
+/*==================== CONTACT ====================*/
+
 }
 
 
 /*  for screens 768px - 991px  */
 @media (min-width: 768px) {
 
+/*======================= * =======================*/
+    .about-wrapper,
+    .work-wrapper,
+    .contact-wrapper {
+        padding-top: 5%;
+    }
+
+    .about-wrapper,
+    .tool-wrapper,
+    .contact-wrapper {
+        padding-bottom: 10%;
+    }
+
+/*====================== NAV ======================*/
     /*  fix missing section of bottom-border on navbar  */
     #mai-navbar-right ul  {
         background-color: transparent;
     }
+
+/*===================== ABOUT =====================*/
+
+/*===================== WORK ======================*/
+    #jolie img {
+        width: 50%;
+    }
+    #orbs img {
+        width: 35%;
+    }
+    #smart img {
+        width: 35%;
+    }
+    #penta img {
+        width: 40%;
+    }
+    #squillo img {
+        width: 22%;
+    }
+    #dance img {
+        width: 35%;
+    }
+    .tags .tech:nth-last-child(-n+6){
+        border-bottom: none;
+    }
+
+/*==================== CONTACT ====================*/
 
 }
 
@@ -18,10 +69,73 @@
 /*  for screens 992px - 1199px  */
 @media (min-width: 992px) {
 
+/*======================= * =======================*/
+    #about h1,
+    #work h1,
+    #contact h1 {
+        font-size: 5.5em;
+    }
+
+/*====================== NAV ======================*/
+
+/*===================== ABOUT =====================*/
+    .me-text {
+        font-size: 0.875em;
+    }
+
+/*===================== WORK ======================*/
+    .tech {
+        height: 160px;
+    }
+    .tech p {
+        line-height: 160px;
+    }
+
+/*==================== CONTACT ====================*/
+
 }
 
 
 /*  for screens 1200px and up  */
 @media (min-width: 1200px) {
+
+/*======================= * =======================*/
+    .about-header,
+    .work-header,
+    .contact-header {
+        padding: 0px;
+    }
+
+/*====================== NAV ======================*/
+
+/*===================== ABOUT =====================*/
+
+/*===================== WORK ======================*/
+    #jolie img {
+        width: 40%;
+    }
+    #orbs img {
+        width: 30%;
+    }
+    #smart img {
+        width: 30%;
+    }
+    #penta img {
+        width: 25%;
+    }
+    #squillo img {
+        width: 17%;
+    }
+    #dance img {
+        width: 30%;
+    }
+    .tech {
+        height: 200px;
+    }
+    .tech p {
+        line-height: 200px;
+    }
+
+/*==================== CONTACT ====================*/
 
 }

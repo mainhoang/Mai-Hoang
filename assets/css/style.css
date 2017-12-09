@@ -11,11 +11,10 @@
     font-size: 16px;
     color: #333;
 }
-
 .dots {
     margin: 0px;
+    line-height: 0.8;
 }
-
 /*This fixes issue with fixed nav & page anchors
 Add padding-top & negative margin-top same as height of nav*/
 #about,
@@ -25,14 +24,12 @@ Add padding-top & negative margin-top same as height of nav*/
     margin-top: -100px;
     position: relative;
 }
-
 .about-wrapper,
 .work-wrapper{
     /*padding-top: 13%;*/
     padding-top: 48px;
     padding-bottom: 60px;
 }
-
 #about h1,
 #work h1,
 #contact h1 {
@@ -40,7 +37,6 @@ Add padding-top & negative margin-top same as height of nav*/
     font-size: 4.5em;
     margin-bottom: 0px;
 }
-
 .about-header,
 .work-header,
 .contact-header {
@@ -60,7 +56,6 @@ Add padding-top & negative margin-top same as height of nav*/
     height: 100px;
     max-height: none;
 }
-
 #mai-navbar-left a {
     color: #333;
     text-transform: uppercase;
@@ -68,35 +63,28 @@ Add padding-top & negative margin-top same as height of nav*/
     font-weight: 300;
     padding: 21px 15px;
 }
-
 #mai-navbar-left button {
     margin-top: 33px;
     margin-bottom: 33px;
     border: none;
 }
-
 #mai-navbar-wrapper {
     padding-bottom: 0px;
 }
-
 #mai-navbar-left button:focus,
 #mai-navbar-left button:hover {
     background-color: white;
 }
-
 #mai-navbar-left button {
     border-radius: 0;
 }
-
 #mai-navbar-left span {
     color: #888;
 }
-
 #mai-navbar-right {
     max-height: none;
 
 }
-
 #mai-navbar-right ul {
     height: 100%;
     background-color: white;
@@ -104,7 +92,6 @@ Add padding-top & negative margin-top same as height of nav*/
     max-height: none;
     text-align: center;
 }
-
 #mai-navbar-right a {
     color: #333;
     text-transform: uppercase;
@@ -118,13 +105,11 @@ Add padding-top & negative margin-top same as height of nav*/
     z-index: 4;
     background-color: white;
 }
-
 #me {
     color: #333;
     /*padding-top: 60px;*/
     /*padding-bottom: 60px;*/
 }
-
 .me-img {
     width: 200px;
     height: 200px;
@@ -139,7 +124,7 @@ Add padding-top & negative margin-top same as height of nav*/
         85% 20.17949%, 87.44656% 22.17911%, 89.85537% 24.64425%, 92.3205% 27.5%, 93.79385% 30.6596%, 94.69615% 34.02704%, 95% 37.5%,
         37.5%, 34.02704%, 30.6596%, 27.5%, 24.64425%, 22.17911%, 20.17949%,
         58.31374% 97.3251%, 56.8404%% 98.79385%, 53.47296% 99.69616%, 50% 0, 46.52704% 99.69616%, 43.1596% 98.79385%, 40% 97.3251%,
-/*        7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, */
+        /* 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, */
 
 
 
@@ -151,17 +136,147 @@ Add padding-top & negative margin-top same as height of nav*/
     );
     -moz-clip-path: polygon(
         92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%,
-        79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%,
-        20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%
+        79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%,
+        37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%,
+        7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%,
+        20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%,
+        62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%
     );
-    clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+    clip-path: polygon(
+        92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%,
+        79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%,
+        37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%,
+        7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%,
+        20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%,
+        62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936
+    );
 }
-
 .me-headline {
-    padding-top: 20px;
+    padding-top: 30px;
 }
-
 .me-text {
     text-align: center;
     padding: 20px;
+    font-size: 0.875em;
+}
+
+/*===================== WORK =====================*/
+
+#work {
+    z-index: 3;
+    background-color: #edeff0;
+}
+#work ul {
+    list-style: none;
+    padding-left: 0px;
+    white-space: nowrap;
+}
+#work h5, .work-wrapper p  {
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+.work-content {
+    height: 280px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.work-content-wrapper {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#work img:hover {
+    opacity: 0;
+}
+#work img {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    transition: all 200ms ease-in-out;
+}
+#jolie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-jolie.jpg);
+    background-position: top;
+}
+#jolie img {
+    width: 60%;
+}
+#orbs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-orbs.jpg);
+}
+#orbs img {
+    width: 30%;
+}
+#penta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-penta.jpg);
+}
+#penta img {
+    width: 45%;
+}
+#smart {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-smart.png);
+}
+#smart img {
+    width: 30%;
+}
+#squillo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-squillo.jpeg);
+    background-position: bottom;
+}
+#squillo img {
+    width: 27%;
+}
+#dance {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-jolie.jpg);
+}
+#dance img {
+    width: 30%;
+}
+.work-content-wrapper:hover .work-details {
+    top: -256px;
+}
+.work-details {
+    background-color: purple;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    transition:  all 500ms ease-in-out;
+}
+.tool-wrapper {
+    padding-bottom: 20%;
+    border-top: 1px solid #999;
+}
+.tool-header {
+    padding-bottom: 40px;
+}
+.tool-wrapper h3 {
+    color: #999;
+    font-weight: 300;
+    margin-top: -13px;
+    background-color: #edeff0;
+}
+.tags {
+    text-align: center;
+}
+.tech {
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    display: inline-block;
+    height: 120px;
+}
+.tags .tech:nth-last-child(-n+3){
+    border-bottom: none;
+}
+.tech p {
+    color: #999;
+    line-height: 120px;
 }
