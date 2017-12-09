@@ -11,12 +11,10 @@
     font-size: 16px;
     color: #333;
 }
-
 .dots {
     margin: 0px;
     line-height: 0.8;
 }
-
 /*This fixes issue with fixed nav & page anchors
 Add padding-top & negative margin-top same as height of nav*/
 #about,
@@ -26,14 +24,12 @@ Add padding-top & negative margin-top same as height of nav*/
     margin-top: -100px;
     position: relative;
 }
-
 .about-wrapper,
 .work-wrapper{
     /*padding-top: 13%;*/
     padding-top: 48px;
     padding-bottom: 60px;
 }
-
 #about h1,
 #work h1,
 #contact h1 {
@@ -41,7 +37,6 @@ Add padding-top & negative margin-top same as height of nav*/
     font-size: 4.5em;
     margin-bottom: 0px;
 }
-
 .about-header,
 .work-header,
 .contact-header {
@@ -61,7 +56,6 @@ Add padding-top & negative margin-top same as height of nav*/
     height: 100px;
     max-height: none;
 }
-
 #mai-navbar-left a {
     color: #333;
     text-transform: uppercase;
@@ -69,35 +63,28 @@ Add padding-top & negative margin-top same as height of nav*/
     font-weight: 300;
     padding: 21px 15px;
 }
-
 #mai-navbar-left button {
     margin-top: 33px;
     margin-bottom: 33px;
     border: none;
 }
-
 #mai-navbar-wrapper {
     padding-bottom: 0px;
 }
-
 #mai-navbar-left button:focus,
 #mai-navbar-left button:hover {
     background-color: white;
 }
-
 #mai-navbar-left button {
     border-radius: 0;
 }
-
 #mai-navbar-left span {
     color: #888;
 }
-
 #mai-navbar-right {
     max-height: none;
 
 }
-
 #mai-navbar-right ul {
     height: 100%;
     background-color: white;
@@ -105,7 +92,6 @@ Add padding-top & negative margin-top same as height of nav*/
     max-height: none;
     text-align: center;
 }
-
 #mai-navbar-right a {
     color: #333;
     text-transform: uppercase;
@@ -119,13 +105,11 @@ Add padding-top & negative margin-top same as height of nav*/
     z-index: 4;
     background-color: white;
 }
-
 #me {
     color: #333;
     /*padding-top: 60px;*/
     /*padding-bottom: 60px;*/
 }
-
 .me-img {
     width: 200px;
     height: 200px;
@@ -167,11 +151,9 @@ Add padding-top & negative margin-top same as height of nav*/
         62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936
     );
 }
-
 .me-headline {
     padding-top: 30px;
 }
-
 .me-text {
     text-align: center;
     padding: 20px;
@@ -184,13 +166,11 @@ Add padding-top & negative margin-top same as height of nav*/
     z-index: 3;
     background-color: #edeff0;
 }
-
 #work ul {
     list-style: none;
     padding-left: 0px;
     white-space: nowrap;
 }
-
 #work h5, .work-wrapper p  {
     margin: 0px auto;
     color: white;
@@ -199,24 +179,20 @@ Add padding-top & negative margin-top same as height of nav*/
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
 }
-
 .work-content {
     height: 280px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
-
 .work-content-wrapper {
     height: 100%;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
-
 #work img:hover {
     opacity: 0;
 }
-
 #work img {
     opacity: 1;
     margin-left: auto;
@@ -224,57 +200,44 @@ Add padding-top & negative margin-top same as height of nav*/
     height: 100%;
     transition: all 200ms ease-in-out;
 }
-
 #jolie {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-jolie.jpg);
     background-position: top;
 }
-
 #jolie img {
     width: 60%;
 }
-
 #orbs {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-orbs.jpg);
 }
-
 #orbs img {
     width: 30%;
 }
-
 #penta {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-penta.jpg);
 }
-
 #penta img {
     width: 45%;
 }
-
 #smart {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-smart.png);
 }
-
 #smart img {
     width: 30%;
 }
-
 #squillo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-squillo.jpeg);
     background-position: bottom;
 }
-
 #squillo img {
     width: 27%;
 }
-
 #dance {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/img-jolie.jpg);
 }
-
 #dance img {
     width: 30%;
 }
-
 .work-content-wrapper:hover .work-details {
     top: -256px;
 }
@@ -287,4 +250,33 @@ Add padding-top & negative margin-top same as height of nav*/
     height: 100%;
     padding: 10%;
     transition:  all 500ms ease-in-out;
+}
+.tool-wrapper {
+    padding-bottom: 20%;
+    border-top: 1px solid #999;
+}
+.tool-header {
+    padding-bottom: 40px;
+}
+.tool-wrapper h3 {
+    color: #999;
+    font-weight: 300;
+    margin-top: -13px;
+    background-color: #edeff0;
+}
+.tags {
+    text-align: center;
+}
+.tech {
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    display: inline-block;
+    height: 120px;
+}
+.tags .tech:nth-last-child(-n+3){
+    border-bottom: none;
+}
+.tech p {
+    color: #999;
+    line-height: 120px;
 }
