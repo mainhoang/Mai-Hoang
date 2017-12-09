@@ -62,7 +62,14 @@
     }
 
 /*==================== CONTACT ====================*/
-
+    /*.contact-wrapper {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }*/
+    .icons {
+        margin: 0px auto;
+        background-position: center;
+    }
 }
 
 
