@@ -14,6 +14,7 @@
 
 .dots {
     margin: 0px;
+    line-height: 0.8;
 }
 
 /*This fixes issue with fixed nav & page anchors
@@ -168,12 +169,13 @@ Add padding-top & negative margin-top same as height of nav*/
 }
 
 .me-headline {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .me-text {
     text-align: center;
     padding: 20px;
+    font-size: 0.875em;
 }
 
 /*===================== WORK =====================*/
@@ -270,7 +272,7 @@ Add padding-top & negative margin-top same as height of nav*/
 }
 
 #dance img {
-    width: 40%;
+    width: 30%;
 }
 
 .work-content-wrapper:hover .work-details {
