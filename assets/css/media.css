@@ -5,6 +5,8 @@
 
 /*====================== NAV ======================*/
 
+/*===================== HERO ======================*/
+
 /*===================== ABOUT =====================*/
 
 /*===================== WORK ======================*/
@@ -34,6 +36,21 @@
     /*  fix missing section of bottom-border on navbar  */
     #mai-navbar-right ul  {
         background-color: transparent;
+    }
+
+/*===================== HERO ======================*/
+    #hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/hero-monstera.jpg');
+        background-size: 175%;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+    }
+    #hero-text-wrapper {
+        padding-top: 15%;
+        padding-bottom: 12%;
+    }
+    .hero-text {
+        color: white;
     }
 
 /*===================== ABOUT =====================*/
@@ -85,6 +102,8 @@
 
 /*====================== NAV ======================*/
 
+/*===================== HERO ======================*/
+
 /*===================== ABOUT =====================*/
     .me-text {
         font-size: 0.875em;
@@ -114,6 +133,8 @@
     }
 
 /*====================== NAV ======================*/
+
+/*===================== HERO ======================*/
 
 /*===================== ABOUT =====================*/
 
