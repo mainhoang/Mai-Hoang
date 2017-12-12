@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'ThinkPink';
-    src:url('fonts/Think-Pink-Regular.woff') format('woff'),
-        url('fonts/Think-Pink-Regular.ttf') format('truetype');
-}
-
 #mai-body {
     padding-top: 100px;
     font-family: "Raleway", sans-serif;
