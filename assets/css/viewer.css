@@ -1,0 +1,19 @@
+#pdf-wrapper {
+    padding-bottom: 0px;
+    height: 100vh;
+    background-color: #edeff0;
+}
+#pdf-wrapper span {
+    font-family: 'ThinkPink';
+    font-size: 3em;
+}
+#pdf-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding: 80px 40px;
+}
+#pdf-wrapper a {
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+}
