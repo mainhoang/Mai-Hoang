@@ -112,8 +112,7 @@ Add padding-top & negative margin-top same as height of nav*/
     background-image: url('../imgs/me.jpg');
     background-size: 140%;
     background-repeat: no-repeat;
-    background-position: 35% 25%;
-/*    border-radius: 50%;*/
+    background-position: 35% 0%;
     -webkit-clip-path: polygon(
         40% 2.67949%,   43.1596% 1.20615%,    46.52704% 0.30384%,   50% 0%,          53.47296% 0.30384%,   56.8404% 1.20615%,    60% 2.67949%,
         85% 20.17949%,  87.85575% 22.17911%,  90.32088% 24.64425%,  92.3205% 27.5%,  93.79385% 30.6596%,   94.69615% 34.02704%,  95% 37.5%,
